@@ -3,7 +3,7 @@ usage: swipe [-m] [-c COUNT] [-d DIRECTION] [-U]
 
 optional arguments:
   -m, --manual                Manual Swiping
-  -c, --count COUNT           Count                                             [default: 20]
+  -c, --count COUNT           Number of swipes                                            [default: 20]
   -d, --direction DIRECTION   Swipe direction : { 'l' , 'left', 'r', 'right }   [default: right]
   -U, --update                Update this program to latest version.
   -V, --version               Print application version
@@ -28,7 +28,7 @@ def swipe_right():
 
 
 def swipe_left():
-    os.system("adb shell input swipe 400 600 800 500 60")
+    os.system("adb shell input swipe 800 500 400 600 60")
 
 
 def swipe_manually():

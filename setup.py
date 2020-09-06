@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dev_swiper",
-    version="0.0.2",
+    version="0.0.4",
     author="Dipansh Khandelwal",
     author_email="dipanshkhandelwal@gmail.com",
     description="Stronger swiping game for devs",
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/DipanshKhandelwal/dev-swiper",
     packages=setuptools.find_packages(),
-    install_requires=[],
+    install_requires=['docopt'],
     classifiers=(
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
