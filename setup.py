@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dev_swiper",
-    version="0.0.4",
+    version="0.0.5",
     author="Dipansh Khandelwal",
     author_email="dipanshkhandelwal@gmail.com",
     description="Stronger swiping game for devs",

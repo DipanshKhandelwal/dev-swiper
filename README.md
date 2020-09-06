@@ -35,7 +35,15 @@ It will swipe `right` for 20 times.
 * `-d, --direction` : Swipe Direction [ Default : right ]
 * `-m` : Manual Mode
 
+```sh
+swipe -c 10 -d left
+```
+
 ### Manual Mode
+
+```sh
+swipe -m
+```
 
 - In manual mode you can `swipe` using your `keyboard`
   - `right ->` : Swipe right
