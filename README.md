@@ -27,6 +27,8 @@ swipe
 
 It will swipe `right` for 20 times.
 
+![Auto Demo GIf](./demo/auto.gif)
+
 ## Arguments
 
 * `-c, --count` : Number of swipes [ Default : 20 ]
@@ -39,6 +41,8 @@ It will swipe `right` for 20 times.
   - `right ->` : Swipe right
   - `left  <-` : Swipe left
   - `q`        : Quit
+
+![Manual Demo GIf](./demo/manual.gif)
 
 ## Author
 
